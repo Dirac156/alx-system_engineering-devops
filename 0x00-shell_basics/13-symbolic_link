@@ -1,2 +1,2 @@
-#!/usr/bin/env sh
+#!/bin/bash
 ln -s /bin/ls __ls__
