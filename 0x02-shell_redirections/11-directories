@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la ./* | egrep '^.*\^*' |find -type d|wc -l
+ls -a ./* | egrep '^.*\^*' |find -type d|wc -l
