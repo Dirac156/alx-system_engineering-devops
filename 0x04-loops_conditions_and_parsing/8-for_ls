@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #display after dash.
 
-for i in ./*; do
+for i in *
+do
     echo "$i" | cut -d '-' -f 2;
 done
