@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#print Holberton n times and hi at the 9th time.
+
+number=1
+while [ $number -le 10 ]; do
+if [ $number -eq 10 ];
+then
+    echo "Hi";
+fi;
+	echo "Holberton School"
+	number=$(( number + 1 ))
+done
