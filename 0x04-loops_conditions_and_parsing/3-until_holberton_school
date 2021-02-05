@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#print Holberton n times
+
+number=1
+until [ ! $number -le 10 ]
+do
+	echo "Holberton School"
+	number=$(( number + 1 ))
+done
