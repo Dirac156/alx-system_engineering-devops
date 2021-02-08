@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#I hate kill
+
+echo $$ > /var/run/holbertonscript.pid
+trap 'sudo rm /var/run/holbertonscript.pid & exit 1' SIGTERM
+trap "rm /var/run/holbertonscript.pid; exit" SIGQUIT
+trap 'echo "Y U no love me?!"' SIGINT
+
+while $1
+do
+echo "To infinity and beyond";
+sleep 2
+done
