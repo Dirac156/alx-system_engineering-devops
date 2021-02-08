@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#find the current pid
+
+echo $$

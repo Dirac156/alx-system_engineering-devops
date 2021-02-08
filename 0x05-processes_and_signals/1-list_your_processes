@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#list all pids in a formated way
+
+top
