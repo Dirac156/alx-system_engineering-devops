@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#kill ...
+
+kill "$(pgrep -f "7-highlander")"

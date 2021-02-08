@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#sigout 
+
+kill -s SIGKILL "$(pgrep -f "7-highlander")"
