@@ -1,9 +1,9 @@
-# create a file in
-
-file { "holberton":
-    owner   => 'www-data',
-    group   => 'www-data',
-    mode    => '0744',
-    content => 'I love Puppet',
-    path    => '/tmp/holberton',
-};
+# create a file in /tmp/
+file { 'temporary file':
+  ensure  => file,
+  path    => '/tmp/holberton',
+  mode    => '0744',
+  group   => 'www-data',
+  owner   => 'www-data',
+  content => 'I love Puppet'
+}
