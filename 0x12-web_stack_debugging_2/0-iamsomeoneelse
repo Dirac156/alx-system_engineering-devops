@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Execute command
+sudo -u "$1" whoami
